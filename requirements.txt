@@ -1,0 +1,14 @@
+# Python 3.11 or newer on Windows 10/11 (the python.org installer includes tkinter).
+# Exactly the Windows Runtime pieces the widget uses (9 small packages). Don't add "[all]": that pulls in ~80.
+winrt-runtime>=4.1.0
+winrt-Windows.Foundation
+winrt-Windows.Foundation.Collections
+winrt-Windows.Storage.Streams
+winrt-Windows.Networking
+winrt-Windows.Networking.Sockets
+winrt-Windows.Devices.Enumeration
+winrt-Windows.Devices.Bluetooth
+winrt-Windows.Devices.Bluetooth.Rfcomm
+# Tray icon (optional: the widget runs without them, just no tray)
+pystray
+pillow

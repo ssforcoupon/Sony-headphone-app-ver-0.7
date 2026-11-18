@@ -1,0 +1,5 @@
+Portable mode: while this file sits next to SonyBridgeWindows.exe, settings are kept in the "data" folder beside it
+(nothing is written to %APPDATA%). Move the folder wherever you like, e.g. a USB stick.
+
+"Start with Windows" in the widget's right-click menu still works: it points at wherever the exe is right now,
+so toggle it off and on again after moving the folder.
